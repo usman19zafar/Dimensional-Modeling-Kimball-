@@ -24,9 +24,8 @@ This section explains the purpose of the workbook:
 - How modern pipelines integrate sources, storage, governance, and compute
 - Practical use cases for business intelligence and machine learning
 
----
 
-# 📊 Star Schema Diagram
+# Star Schema Diagram
 
 ```mermaid
 flowchart LR
@@ -43,6 +42,10 @@ flowchart LR
     DIM_PRODUCT --> FACT_SALES_LINE
     DIM_CHANNEL --> FACT_SALES_LINE
     DIM_REGION --> FACT_SALES_LINE
+
+# Modern Data Architecture Pipeline
+
+```mermaid
 flowchart LR
     subgraph Sources
       A1[Operational DBs]
@@ -71,7 +74,7 @@ flowchart LR
     subgraph Compute
       E1[Spark and SQL Engines]
       E2[Machine Learning and Data Science]
-      E3[Business Intelligence and Ad Hoc]
+      E3[BI and Ad Hoc]
     end
 
     %% Flows
@@ -97,3 +100,5 @@ flowchart LR
     C3 --> E3
     C2 --> E1
     C2 --> E2
+
+
