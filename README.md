@@ -44,6 +44,7 @@ flowchart LR
     DIM_CHANNEL --> FACT_SALES_LINE
     DIM_REGION --> FACT_SALES_LINE
 
+
 # Modern Data Architecture Pipeline
 
 ```mermaid
