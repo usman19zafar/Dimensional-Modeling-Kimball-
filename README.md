@@ -25,5 +25,5 @@ This section explains the purpose of the workbook:
 - Practical use cases for business intelligence and machine learning
 
 
-### 📊 Star Schema See the full diagram here: [star-schema.md](star-schema.md) 
+### 📊 Star Schema See the full diagram here: [star Schema.md](star-schema.md) 
 ## 🔄 Modern Data Pipeline See the full diagram here: [pipeline.md](pipeline.md)
