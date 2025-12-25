@@ -1,4 +1,4 @@
-Tagline
+Tagline: 
 From grain clarity to conformed dimensions, Section 1.2 gives you the blueprint to architect analytics that scale, govern history, and speak the language of business.
 
 Write‑Up
