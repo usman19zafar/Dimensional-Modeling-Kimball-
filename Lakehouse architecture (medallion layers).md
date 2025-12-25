@@ -1,3 +1,8 @@
+# Modern Data Architecture Pipeline
+
+This diagram shows sources, ingestion, storage layers, governance, and compute engines.
+
+```mermaid
 flowchart LR
     subgraph Sources
       A1[Operational DBs]
