@@ -26,11 +26,7 @@ This section explains the purpose of the workbook:
 
 ---
 
-## 📊 Star Schema
-
-A classic star schema for sales analytics:
-
-[View the full diagram](star-schema.md)
+# Star Schema Diagram
 
 ```mermaid
 flowchart LR
@@ -48,6 +44,9 @@ flowchart LR
     DIM_CHANNEL --> FACT_SALES_LINE
     DIM_REGION --> FACT_SALES_LINE
 
+# Modern Data Architecture Pipeline
+
+```mermaid
 flowchart LR
     subgraph Sources
       A1[Operational DBs]
@@ -102,4 +101,5 @@ flowchart LR
     C3 --> E3
     C2 --> E1
     C2 --> E2
+
 
