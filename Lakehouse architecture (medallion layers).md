@@ -1,13 +1,8 @@
-# Modern Data Architecture Pipeline
-
-This diagram shows sources, ingestion, storage layers, governance, and compute engines.
-
-```mermaid
 flowchart LR
     subgraph Sources
       A1[Operational DBs]
-      A2[Files (CSV/JSON/Parquet)]
-      A3[Streaming (Kafka/Kinesis)]
+      A2[Files (CSV, JSON, Parquet)]
+      A3[Streaming (Kafka, Kinesis)]
       A4[SaaS APIs]
     end
 
@@ -29,9 +24,9 @@ flowchart LR
     end
 
     subgraph Compute
-      E1[Spark/SQL Engines]
-      E2[ML/DS]
-      E3[BI/Ad Hoc]
+      E1[Spark, SQL Engines]
+      E2[ML, DS]
+      E3[BI, Ad Hoc]
     end
 
     %% Flows
