@@ -1,7 +1,6 @@
 Tagline: 
 From grain clarity to conformed dimensions, Section 1.2 gives you the blueprint to architect analytics that scale, govern history, and speak the language of business.
 
-Write‑Up
 Section 1.2 distills Kimball’s dimensional modeling into a practical playbook for analytics excellence. 
 We’ll learn to design star schemas that simplify complexity, choose the right SCD strategy to balance agility with history, define fact table grain for precision, and build conformed dimensions that unify every domain.
 
